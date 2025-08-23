@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 32a5c921321e5c644abae5359fc03a23
+guid: 6bd6baa7caa680c49acb481df39dd262
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4832718033252460221
-    second: stone_block2_0
+      213: 8796059814812499753
+    second: collider6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,27 +126,29 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stone_block2_0
+      name: collider6_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 6
         width: 32
-        height: 32
+        height: 10
       alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      pivot: {x: 0.0014244802, y: 0.19515666}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape:
-      - - {x: -16, y: -8}
-        - {x: 0, y: -16}
-        - {x: 16, y: -8}
-        - {x: 0, y: 0}
+      - - {x: -15, y: -4}
+        - {x: 0, y: 4}
+        - {x: 15, y: -4}
+        - {x: 16, y: -3}
+        - {x: 0, y: 5}
+        - {x: -16, y: -3}
       tessellationDetail: 0
       bones: []
-      spriteID: db623a74273411340800000000000000
-      internalID: 4832718033252460221
+      spriteID: 92fbcfc4cc1e11a70800000000000000
+      internalID: 8796059814812499753
       vertices: []
       indices: 
       edges: []
@@ -155,7 +157,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8539c1c9294677c40a17c21b05900d5b
+    spriteID: 2ab24ca7a07a2ce4698e671cf3718439
     internalID: 0
     vertices: []
     indices: 
@@ -165,7 +167,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stone_block2_0: 4832718033252460221
+      collider6_0: 8796059814812499753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

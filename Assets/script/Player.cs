@@ -40,4 +40,9 @@ public class Player : MonoBehaviour
     {
         transform.position = new Vector3(transform.position.x + 0.01f, transform.position.y);
     }
+
+    public void SetZPos(float zPos)
+    {
+        transform.position = new Vector3(transform.position.x, transform.position.y, zPos);
+    }
 }
